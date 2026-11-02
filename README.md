@@ -1,49 +1,44 @@
-# Welcome to the project
+# React Portfolio Website
 
-**Use your preferred IDE**
+My earlier personal portfolio site as a full stack web developer. It presents my services, experience, education, skills, portfolio and testimonials, with a contact page.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+My current portfolio lives at [arbazkhan.space](https://arbazkhan.space).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Pages
 
-Follow these steps:
+- Home: hero, about, skills, experience, education, portfolio and testimonials
+- Services
+- Portfolio
+- About
+- Contact
+- Custom 404 page
+
+## Stack
+
+- React and TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui components
+
+## Run it locally
+
+Requires Node.js 18 or newer.
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Build for production:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm run build
+npm run preview
+```
 
-**Use GitHub Codespaces**
+## Author
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Arbaz Khan, Full Stack Developer (WordPress, Shopify, SaaS and AI automation)
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-
+- Portfolio: [arbazkhan.space](https://arbazkhan.space)
+- LinkedIn: [linkedin.com/in/arbazkhan-webdev](https://www.linkedin.com/in/arbazkhan-webdev/)
